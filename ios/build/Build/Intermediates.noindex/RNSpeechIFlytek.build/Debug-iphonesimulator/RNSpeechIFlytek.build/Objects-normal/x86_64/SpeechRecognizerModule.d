@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/RNSpeechIFlytek/SpeechRecognizerModule.m \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/RNSpeechIFlytek/SpeechRecognizerModule.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/luculent/Downloads/AIUI/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyMSC.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyAudioSession.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyDataUploader.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyDebugLog.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyISVDelegate.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyISVRecognizer.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyRecognizerView.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyRecognizerViewDelegate.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyResourceUtil.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySetting.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechConstant.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechError.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechEvaluator.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechEvaluatorDelegate.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechEvent.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechRecognizer.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechRecognizerDelegate.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechSynthesizer.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechSynthesizerDelegate.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlySpeechUtility.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyUserWords.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyPcmRecorder.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyVoiceWakeuper.h \
+  /Users/luculent/Downloads/AIUI/node_modules/react-native-speech-iflytek/ios/libs/iflyMSC.framework/Headers/IFlyVoiceWakeuperDelegate.h
