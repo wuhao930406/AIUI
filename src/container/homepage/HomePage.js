@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
         width:122,
         height:122,
         alignSelf:"center",
-        borderRadius:600,
         marginTop:28
     },
     text:{

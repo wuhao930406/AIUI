@@ -40,9 +40,9 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		A54CE1186D3F4BD5B7E48001 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A96217033354E8BB387D8D7 /* libSplashScreen.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		E830241021A3A80200E6A8AE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E83023E721A3A80200E6A8AE /* assets */; };
-		E830241121A3A80200E6A8AE /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E830240F21A3A80200E6A8AE /* main.jsbundle */; };
-		E8AEBD6221A2C11C00DA7298 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AEBD6121A2C11B00DA7298 /* iflyMSC.framework */; };
+		E830244921A3FDE700E6A8AE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E830244721A3FDE600E6A8AE /* assets */; };
+		E830244A21A3FDE700E6A8AE /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E830244821A3FDE700E6A8AE /* main.jsbundle */; };
+		E830248821A4088F00E6A8AE /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E830248721A4088E00E6A8AE /* iflyMSC.framework */; };
 		E8AEBDCD21A2C79300DA7298 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AEBD9B21A2C79100DA7298 /* SystemConfiguration.framework */; };
 		E8AEBDCE21A2C79300DA7298 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AEBDC321A2C79100DA7298 /* Contacts.framework */; };
 		E8AEBDCF21A2C79300DA7298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AEBDC421A2C79200DA7298 /* Foundation.framework */; };
@@ -377,9 +377,9 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		CCE0E1D275D0466C8A7018BE /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
-		E83023E721A3A80200E6A8AE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
-		E830240F21A3A80200E6A8AE /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		E8AEBD6121A2C11B00DA7298 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		E830244721A3FDE600E6A8AE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../release_ios/assets; sourceTree = "<group>"; };
+		E830244821A3FDE700E6A8AE /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../release_ios/main.jsbundle; sourceTree = "<group>"; };
+		E830248721A4088E00E6A8AE /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../../Desktop/iflyMSC.framework; sourceTree = "<group>"; };
 		E8AEBD9B21A2C79100DA7298 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		E8AEBDC321A2C79100DA7298 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
 		E8AEBDC421A2C79200DA7298 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -415,10 +415,10 @@
 				E8AEBDD321A2C79300DA7298 /* AudioToolbox.framework in Frameworks */,
 				E8AEBDCE21A2C79300DA7298 /* Contacts.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				E8AEBD6221A2C11C00DA7298 /* iflyMSC.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				E8AEBDCD21A2C79300DA7298 /* SystemConfiguration.framework in Frameworks */,
+				E830248821A4088F00E6A8AE /* iflyMSC.framework in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				E8AEBDD521A2C79300DA7298 /* CoreLocation.framework in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
@@ -580,7 +580,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8AEBD6121A2C11B00DA7298 /* iflyMSC.framework */,
+				E830248721A4088E00E6A8AE /* iflyMSC.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				E8AEBDC521A2C79200DA7298 /* AddressBook.framework */,
 				E8AEBDC821A2C79200DA7298 /* AudioToolbox.framework */,
@@ -648,8 +648,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				E83023E721A3A80200E6A8AE /* assets */,
-				E830240F21A3A80200E6A8AE /* main.jsbundle */,
+				E830244721A3FDE600E6A8AE /* assets */,
+				E830244821A3FDE700E6A8AE /* main.jsbundle */,
 				13B07FAE1A68108700A75B9A /* AIUI */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AIUITests */,
@@ -1177,10 +1177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E830241021A3A80200E6A8AE /* assets in Resources */,
+				E830244921A3FDE700E6A8AE /* assets in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				E830241121A3A80200E6A8AE /* main.jsbundle in Resources */,
+				E830244A21A3FDE700E6A8AE /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1364,9 +1364,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = CNH2ZFL4S2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../node_modules/react-native-speech-iflytek/ios/libs",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1375,6 +1377,11 @@
 				);
 				INFOPLIST_FILE = AIUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/1542705290870",
+					"$(PROJECT_DIR)/1542705327468",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1396,9 +1403,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CNH2ZFL4S2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../node_modules/react-native-speech-iflytek/ios/libs",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1407,6 +1416,11 @@
 				);
 				INFOPLIST_FILE = AIUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/1542705290870",
+					"$(PROJECT_DIR)/1542705327468",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

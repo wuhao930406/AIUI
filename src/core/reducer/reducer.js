@@ -1,6 +1,6 @@
 const themeReducer = (state, action) => {
     if (!state) return {
-        appTheme:"",
+        appTheme:"default",
     }
 
     switch (action.type) {
